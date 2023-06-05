@@ -165,10 +165,7 @@ class Renderer:
 
     # Clear terminal
     def clear_canvas(self):
-        if os.name == 'nt':
-            print("\033c", end="")
-        else:
-            os.system('clear')
+        print("\033l", end="")
         
     
     def draw(self):

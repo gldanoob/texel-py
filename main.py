@@ -55,4 +55,4 @@ while True:
     for t in objects:
         for p in t.v:
             p.rotate(0.1, 0.00, 0.1)
-    time.sleep(1 / 60)
+    time.sleep(1 / 15)
